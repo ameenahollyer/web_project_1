@@ -26,9 +26,7 @@
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  color: whi  margin-right: 0;
 }
 
 .logo {
@@ -140,7 +138,7 @@ margin-top: 0px;
   font-weight: normal;
 }
 
-.digits__table {
+.table {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -235,12 +233,10 @@ top: 50%;
   z-index: 1;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto 90px auto;
   flex-wrap: wrap;
-  width: 80%;
   padding: 0;
+  justify-content: space-between;
   }
 
 .table__cell_theme_dark {
@@ -249,7 +245,6 @@ font-size: 24px;
 font-weight: bold;
 color: white;
 width: 200px;
-align-self: center;
 z-index: 1;
 padding: 0;
 }
@@ -266,6 +261,35 @@ padding: 0;
   color: white;
   width: 200px;
   z-index: 1;
+  }
+
+  .footer__columns {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 90%;
+    flex-basis: 711px;
+    min-height: 350px;
+  }
+
+  .logo_place_footer {
+    width: 183px;
+    height: 35px;
+    flex-direction: row;
+  }
+
+  .footer__author {
+    margin: 16px 0 16px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .footer__column_content_copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
   }
 
 
