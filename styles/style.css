@@ -267,15 +267,22 @@ padding: 0;
     background-color: black;
     color: white;
     display: flex;
-    width: 90%;
-    flex-basis: 711px;
     min-height: 350px;
+    padding-top: 60px;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    justify-content: space-between;
+    
+
   }
 
   .logo_place_footer {
     width: 183px;
     height: 35px;
     flex-direction: row;
+    margin-top: 0
+    
   }
 
   .footer__author {
@@ -289,7 +296,54 @@ padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    flex-basis: 711px;
+  }
+
+  .footer__column-heading {
+    margin-top: 60px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .footer__column-links {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+
+  }
+
+  .footer__column-links{
+    margin: 20px 0 16px;
+    padding-left: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+  
+  
+  }
+  .footer__column-link{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer__social-icon{
+    padding-left: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+     color: #fff;
   }
 
 
