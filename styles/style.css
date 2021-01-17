@@ -26,7 +26,8 @@
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
-  color: whi  margin-right: 0;
+  color: white;  
+  margin-right: 0;
 }
 
 .logo {
