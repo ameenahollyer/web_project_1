@@ -89,6 +89,10 @@ font-weight: normal;
 margin-top: 0px;
 }
 
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .two-columns__brief {
   width: 175px;
   color: #2f80ed;
@@ -103,7 +107,7 @@ margin-top: 0px;
   min-width: 784px;
 }
 
-.digits__section-title {
+.section-title {
   line-height: 1.15;
   width: 60%;
   text-align: center;
@@ -112,13 +116,10 @@ margin-top: 0px;
   font-weight: bold;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   width: 60%;
   text-align: center;
   margin: auto;
-}
-
-.digits__section-subtitle h3 {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -138,6 +139,23 @@ margin-top: 0px;
   width: 250px;
 }
 
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text:last-child {
+  margin-bottom: 0;
+}
+
 .feynman {
   min-height: 790px;
   position: relative;
@@ -148,7 +166,7 @@ margin-top: 0px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  width: 775px;
+  max-width: 775px;
   margin: 100px auto 0 auto;
   text-align: center;
   position: relative;
@@ -204,6 +222,7 @@ top: 50%;
   margin: 0 auto 0 auto;
   text-align: center;
   color: white;
+  z-index: 1;
 }
 
 .kaufman__triangle {
