@@ -224,6 +224,9 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    z-index: 2;
 }
 
 .kaufman {
