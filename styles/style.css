@@ -75,11 +75,18 @@
     height: 568px;
     width: 568px;
     background-color: #2f80ed;
+    transform: rotate(-15deg);
+    overflow: hidden;
+    animation: spin 20s linear infinite;
 }
 
 .header__link {
     color: #2f80ed;
     text-decoration: none;
+}
+
+.header__link:hover {
+    opacity: 0.2;
 }
 
 .two-columns {
@@ -229,6 +236,10 @@
     z-index: 2;
 }
 
+.feynman__link:hover {
+    opacity: 0.2;
+}
+
 .kaufman {
     overflow: hidden;
     background-color: #1f1f1f;
@@ -364,13 +375,30 @@
     line-height: 30px;
 }
 
+.footer__column-links:hover {
+    opacity: 0.2;
+}
+
 .footer__column-link {
     text-decoration: none;
     color: #f2f2f2;
+}
+
+.footer__column-link:hover {
+    opacity: 0.2;
 }
 
 .footer__social-icon {
     padding-left: 0px;
     height: 16px;
     width: 16px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
