@@ -402,3 +402,24 @@
         transform: rotate(360deg);
     }
 }
+
+.cards__title {
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.video {
+    text-align: center;
+}
+
+.video__iframe {
+    margin: 50px auto 0 10px;
+}
