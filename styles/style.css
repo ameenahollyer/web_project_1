@@ -462,6 +462,8 @@
     display: flex;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cards__item {
