@@ -7,6 +7,7 @@
     margin: 0 auto;
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
 }
 
 .header {
@@ -443,16 +444,50 @@
     margin: 0;
 }
 
-.resources__section-title_header {
+.section-title_header {
     margin-top: 100px;
 }
 
-.resources__section-subtitle_subheader {
+.section-subtitle_subheader {
     margin-top: 20px;
     margin-bottom: 80px;
 }
 
+.oakley {
+    background-color: #f2f2f2;
+}
+
+.cards {
+    width: 920px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+}
+
 .cards__item {
     list-style-type: none;
-    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cards__image {
+    height: 160px;
+    width: 160px;
+    margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    margin-bottom: 16px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 60px;
 }
