@@ -404,13 +404,6 @@
     }
 }
 
-.cards__title {
-    line-height: 1.5;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-}
-
 .cards__description {
     line-height: 23px;
     font-size: 18px;
@@ -459,7 +452,6 @@
 
 .cards {
     width: 920px;
-    display: flex;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -472,6 +464,12 @@
     flex-wrap: wrap;
     text-align: center;
     width: 240px;
+    padding: 0;
+    margin: 0;
+}
+
+.cards__description:last-of-type {
+    margin-bottom: 0;
 }
 
 .cards__image {
@@ -485,6 +483,7 @@
     font-size: 24px;
     margin-bottom: 16px;
     text-align: center;
+    font-weight: bold;
 }
 
 .cards__description {
@@ -492,4 +491,69 @@
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 60px;
+}
+
+.khan {
+    background-color: #f2f2f2;
+}
+
+.khan__container {
+    width: 80%;
+    margin: 105px auto 0 auto;
+}
+
+.khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.khan__quote {
+    width: 790px;
+    margin-top: 50px;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.khan__quote-author {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.khan__book-pic {
+    height: 620px;
+    width: 608px;
+    overflow: hidden;
+    margin-top: 68px;
+    margin-left: 0;
+    margin-right: 48px;
+}
+
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    height: 620px;
 }
