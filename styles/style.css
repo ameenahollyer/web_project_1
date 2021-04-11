@@ -280,6 +280,7 @@
     background-image: url('../images/kaufman-triangle.svg');
     background-size: cover;
     z-index: -1;
+    animation: spin 20s linear infinite
 }
 
 .table_theme_dark {
@@ -415,8 +416,9 @@
     text-align: center;
 }
 
-.video__iframe {
-    margin: 50px auto 0 10px;
+.video__iframes {
+    margin: 50px auto 0 auto;
+    transform: translateY(60px);
 }
 
 .resources {
@@ -571,4 +573,14 @@
 
 .two-columns__oakley {
     margin-bottom: 0;
+}
+
+.section-subtitle_techniques {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.section-subtitle_videos {
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
