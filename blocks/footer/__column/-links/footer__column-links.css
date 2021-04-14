@@ -7,7 +7,3 @@
     list-style-type: none;
     line-height: 30px;
 }
-
-.footer__column-links:hover {
-    opacity: 0.2;
-}

@@ -7,5 +7,5 @@
     background-color: #2f80ed;
     transform: rotate(-15deg);
     overflow: hidden;
-    animation: spin 20s linear infinite;
+    animation: rotation 20s linear infinite;
 }
