@@ -1,3 +1,4 @@
+@import url(../pages/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/logo/logo.css);
@@ -48,6 +49,7 @@
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__logo/__logo-zone/resources__logo-zone.css);
