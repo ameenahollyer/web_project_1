@@ -12,4 +12,5 @@
 
 .feynman__link:hover {
     opacity: 0.2;
+    transition-timing-function: linear;
 }
